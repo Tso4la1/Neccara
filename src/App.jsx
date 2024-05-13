@@ -1,5 +1,5 @@
 import React from "react";
-import { Banner, NavBar, SubNav, BannerHead } from "./Components/Molecule";
+import { Banner, NavBar, SubNav, BannerHead, Process } from "./Components/Molecule";
 import styled from "styled-components";
 
 
@@ -30,6 +30,7 @@ function App() {
       <SubNav />
       <BannerHead />
       <Banner />
+      <Process />
     </div>
   )
 }

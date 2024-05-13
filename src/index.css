@@ -1,3 +1,5 @@
+/* Default styling */
+
 * {
   margin: 0;
   padding: 0;
@@ -5,11 +7,17 @@
   font-family: "Outfit", sans-serif;
 }
 
+body {
+  background-color: #f9f9f9;
+}
+
+/* SubNavbar */
 .whatsappSub {
   margin-left: 35%;
   gap: 16px;
 }
 
+/* Section1 */
 .headerText {
   width: 66%;
   line-height: 49px;
@@ -17,6 +25,8 @@
   font-weight: 600;
   color: #001b79;
 }
+
+/* Section 2 */
 .BannerContent {
   width: 69%;
   font-weight: 400;
@@ -32,4 +42,19 @@
   border: none;
   font-weight: 400;
   border-radius: 2px;
+}
+
+/* Processing */
+.H1,
+.H2,
+.H3 {
+  width: 95%;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.processCard {
+  padding-right: 30px;
+  border-right: 2px solid grey;
 }
