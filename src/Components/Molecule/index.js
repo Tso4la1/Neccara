@@ -5,3 +5,4 @@ export * from "./Banner";
 export *  from "./Process";
 export * from "./ProductHead";
 export * from "./Products";
+export * from "./ProductSample"

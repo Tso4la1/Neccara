@@ -94,3 +94,26 @@ body {
   border-radius: 5px;
   color: #fff;
 }
+
+/* .productImg {
+  width: 80%;
+} */
+/* SampleProduct */
+
+.sample1 {
+  background-image: url("sample1.png");
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 600px;
+  background-color: red;
+  background-size: 101% 600px;
+}
+
+.sample2 {
+  background-image: url("sample2.png");
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 600px;
+  background-color: blue;
+  background-size: 101% 600px;
+}
