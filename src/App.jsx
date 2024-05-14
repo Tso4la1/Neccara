@@ -1,6 +1,7 @@
 import React from "react";
-import { Banner, NavBar, SubNav, BannerHead, Process, ProductHead } from "./Components/Molecule";
+import { Products, Banner, NavBar, SubNav, BannerHead, Process, ProductHead } from "./Components/Molecule";
 import styled from "styled-components";
+
 
 
 export const GenStyle = styled.div`
@@ -33,6 +34,7 @@ function App() {
       <Banner />
       <Process />
       <ProductHead />
+      <Products />
     </div>
   )
 }

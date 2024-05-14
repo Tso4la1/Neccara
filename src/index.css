@@ -62,3 +62,35 @@ body {
   padding-right: 30px;
   border-right: 2px solid grey;
 }
+
+/* Products */
+
+.product {
+  grid-template-columns: 1fr 1fr;
+}
+
+.productHead {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.productContent {
+  margin-bottom: 20px;
+  width: 45%;
+  line-height: 26px;
+}
+
+.productCost {
+  margin-bottom: 17px;
+  font-weight: 600;
+}
+
+.productButton {
+  width: 27%;
+  height: 50px;
+  border: none;
+  background-color: #001b79;
+  border-radius: 5px;
+  color: #fff;
+}

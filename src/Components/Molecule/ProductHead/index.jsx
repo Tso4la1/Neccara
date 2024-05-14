@@ -7,7 +7,8 @@ export const ProductHead = () => {
         <GenStyle
             Display="flex"
             JustifyContent="center"
-            Margin="15px 0 25px 0"
+            AlignItems="center"
+            Margin="15px 5% 25px 0px"
             FontSize="28px"
             FontWeight="500"
         >
