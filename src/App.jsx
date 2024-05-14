@@ -1,5 +1,5 @@
 import React from "react";
-import { Banner, NavBar, SubNav, BannerHead, Process } from "./Components/Molecule";
+import { Banner, NavBar, SubNav, BannerHead, Process, ProductHead } from "./Components/Molecule";
 import styled from "styled-components";
 
 
@@ -17,8 +17,9 @@ color : ${props => props.Color};
 margin: ${props => props.Margin};
 padding: ${props => props.Padding};
 transform: ${props => props.Transform};
-gap: ${props => props.Gap}
-
+gap: ${props => props.Gap};
+font-size : ${props => props.FontSize};
+font-weight: ${props => props.FontWeight};
 
 `
 
@@ -31,6 +32,7 @@ function App() {
       <BannerHead />
       <Banner />
       <Process />
+      <ProductHead />
     </div>
   )
 }

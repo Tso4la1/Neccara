@@ -10,7 +10,9 @@ export const Banner = () => {
             AlignItems="center"
             JustifyContent="space-between"
             Padding="0 80px"
+            Margin="20px 0 10px 0"
             BackgroundColour="#e4e9fb"
+            className='banner'
         >
             <GenStyle
                 Width="50%"
