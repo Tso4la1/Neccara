@@ -45,4 +45,16 @@ export const Imgs = ({ name }) => {
     if (name === "arrowright") {
         return <img src="arrow-right.png" alt="Product" />
     }
+
+    if (name === "mill") {
+        return <img src="mill.png" alt="Product" />
+    }
+
+    if (name === "kow") {
+        return <img src="kow.png" alt="Product" />
+    }
+
+    if (name === "mike") {
+        return <img src="mike.png" alt="Product" />
+    }
 }

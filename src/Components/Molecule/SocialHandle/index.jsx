@@ -18,6 +18,7 @@ export const SocialHandle = () => {
             JustifyContent="center"
             AlignItems="center"
             FlexDirection="column"
+            Margin="0 0 25px 0"
 
         >
             <GenStyle

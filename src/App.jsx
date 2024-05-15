@@ -1,11 +1,12 @@
 import React from "react";
-import { Products, Banner, NavBar, SubNav, BannerHead, Process, ProductHead, ProductSample, SocialHandle } from "./Components/Molecule";
+import { Products, Banner, NavBar, SubNav, BannerHead, Remarks, Process, ProductHead, ProductSample, SocialHandle } from "./Components/Molecule";
 import styled from "styled-components";
 
 
 
 export const GenStyle = styled.div`
 display: ${props => props.Display};
+border:${props => props.Boder};
 justify-content:${props => props.JustifyContent};
 width:${props => props.Width};
 height:${props => props.Height};
@@ -37,6 +38,7 @@ function App() {
       <Products />
       <ProductSample />
       <SocialHandle />
+      <Remarks />
     </div>
   )
 }
