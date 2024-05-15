@@ -1,5 +1,5 @@
 import React from "react";
-import { Products, Banner, NavBar, SubNav, BannerHead, Process, ProductHead, ProductSample } from "./Components/Molecule";
+import { Products, Banner, NavBar, SubNav, BannerHead, Process, ProductHead, ProductSample, SocialHandle } from "./Components/Molecule";
 import styled from "styled-components";
 
 
@@ -36,6 +36,7 @@ function App() {
       <ProductHead />
       <Products />
       <ProductSample />
+      <SocialHandle />
     </div>
   )
 }

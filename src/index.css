@@ -174,3 +174,11 @@ body {
   position: relative;
   top: 35%;
 }
+
+/* Carousel */
+
+.carousel {
+  width: 92%;
+  padding: 0 60px;
+  height: 300px;
+}

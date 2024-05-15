@@ -33,4 +33,16 @@ export const Imgs = ({ name }) => {
     if (name === "drop") {
         return <img src="drop.png" alt="Product" />
     }
+
+    if (name === "showcaseproduct") {
+        return <img src="showcaseproduct.png" alt="Product" />
+    }
+
+    if (name === "arrowleft") {
+        return <img src="arrow-left.png" alt="Product" />
+    }
+
+    if (name === "arrowright") {
+        return <img src="arrow-right.png" alt="Product" />
+    }
 }
