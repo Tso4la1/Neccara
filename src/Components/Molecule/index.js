@@ -8,3 +8,4 @@ export * from "./Products";
 export * from "./ProductSample";
 export * from "./SocialHandle";
 export *  from "./Remarks";
+export * from "./Features";

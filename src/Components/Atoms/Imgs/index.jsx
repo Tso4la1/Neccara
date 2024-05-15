@@ -57,4 +57,19 @@ export const Imgs = ({ name }) => {
     if (name === "mike") {
         return <img src="mike.png" alt="Product" />
     }
+
+
+    if (name === "punch") {
+        return <img src="punch.png" alt="Product" />
+    }
+
+
+    if (name === "bu") {
+        return <img src="bu.png" alt="Product" />
+    }
+
+
+    if (name === "yahoo") {
+        return <img src="yahoo.png" alt="Product" />
+    }
 }

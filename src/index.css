@@ -217,11 +217,31 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #001b79;
-  color: #001b79;
-  border: 0px solid #001b79;
+
+  color: #4a6be4;
+  border: 1px solid #8fa3eb;
   font-weight: 600;
   padding: 15px 70px;
   border-radius: 4px;
   background-color: transparent;
+}
+
+/* Feature */
+
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 27px;
+  font-weight: 600;
+  margin: 65px 0;
+  gap: 18px;
+}
+
+.feature_display {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
