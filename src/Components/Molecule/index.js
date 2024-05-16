@@ -9,3 +9,4 @@ export * from "./ProductSample";
 export * from "./SocialHandle";
 export *  from "./Remarks";
 export * from "./Features";
+export * from "./Footer";

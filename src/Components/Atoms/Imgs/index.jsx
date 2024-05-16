@@ -72,4 +72,24 @@ export const Imgs = ({ name }) => {
     if (name === "yahoo") {
         return <img src="yahoo.png" alt="Product" />
     }
+
+    if (name === "footerlogo") {
+        return <img src="footerlogo.png" alt="Product" />
+    }
+
+    if (name === "accredited") {
+        return <img src="accredited.png" alt="Product" />
+    }
+
+    if (name === "instagram-filled") {
+        return <img src="instagram-filled.png" alt="Product" />
+    }
+
+    if (name === "twitter") {
+        return <img src="twitter.png" alt="Product" />
+    }
+
+    if (name === "youtube-fill") {
+        return <img src="youtube-fill.png" alt="Product" />
+    } 0
 }
